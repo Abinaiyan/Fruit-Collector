@@ -53,7 +53,7 @@ class Game{
                      y=500;
                      
                      allPlayers[index -1].x = x;
-                     allPlayers[index - 1].y = y;
+                     players[index - 1].y = y;
                        
                      if(index === player.index){
                          
